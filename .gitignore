@@ -46,3 +46,5 @@ venv
 locale
 tx-temp
 .venv
+content-translated
+!translations/en/messages.pot
