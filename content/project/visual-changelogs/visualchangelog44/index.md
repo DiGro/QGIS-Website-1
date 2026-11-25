@@ -469,7 +469,7 @@ Dawson](https://github.com/nyalldawson)
 
 This implements the ideas discussed in [PR
 66112](https://github.com/qgis/QGIS/pull/66112):  
-The old 3d symbology widgets had too much information and parameters, We
+The old 3d symbology widgets had too much information and parameters. We
 reduced the number of displayed options and moved them into the advanced
 tab. This is achieved with 3 main changes:
 
@@ -534,14 +534,14 @@ This feature was developed by [Jean Felder](https://github.com/ptitjano)
 
 This adds a new "From 2D Symbology" entry to the 3D symbology combo box.
 This allows to create a new 3D symbology from the 2D one. If a 3d
-symbology already exists, it is replaced by this a new 3d symbology.
+symbology already exists, it is replaced by this new 3d symbology.
 This can be useful to quickly replicate 2D rules/categories or have
 similar colors between the 2D and 3D representations.  
 If the current 2D symbology style does not have a 3D equivalent, the
 entry is disabled.  
 For example, if the 2D symbology is "Categorized", it creates a 3D
 "Categorized" symbology, copies each category and tries to create 3d
-symbols based on the 3D one.  
+symbols based on the 2D one.  
   
 As there is no perfect match between the 2D symbols properties and the
 3D symbol properties, only simple properties can be copied:  
@@ -1018,7 +1018,7 @@ release anywhere on the canvas.
 You're prompted with a toolbox with only the algorithm or parameter
 compatible with the socket you were dragging.  
 When adding the algorithm to the canvas it will connect to the first
-appropriate socket  
+appropriate socket.  
 On unlink the popup does not appear.
 
 <img
